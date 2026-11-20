@@ -1,0 +1,19 @@
+GRAPH SAGE CRITICAL NODE IDENTIFICATION
+============================================================
+Device: mps
+Train graphs: 3000
+Validation graphs: 1000
+Test graphs: 2000
+Sensing range: 55.0
+Epochs: 25
+Best validation F1: 0.9202
+
+Test Accuracy: 0.9355
+Test Precision: 0.9493
+Test Recall: 0.8949
+Test F1: 0.9213
+Test PR-AUC: 0.9790
+
+Confusion Matrix:
+[[46953  1699]
+ [ 3733 31799]]

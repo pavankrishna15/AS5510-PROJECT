@@ -1,0 +1,68 @@
+CRITICAL NODE IDENTIFICATION
+RANDOM FOREST BASELINE
+============================================================
+
+Total usable rows: 1,639,166
+Unique scenarios: 100
+
+Training scenarios: 70
+Validation scenarios: 15
+Test scenarios: 15
+
+Training rows used: 250,000
+Validation rows: 288,749
+Test rows: 247,938
+
+Best threshold: 0.40
+Validation F1: 0.9011
+
+TEST RESULTS
+------------------------------------------------------------
+Precision: 0.9288
+Recall: 0.8616
+F1 Score: 0.8939
+PR-AUC: 0.9672
+
+CONFUSION MATRIX
+[[136228   6923]
+ [ 14501  90286]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+Non-Critical     0.9038    0.9516    0.9271    143151
+    Critical     0.9288    0.8616    0.8939    104787
+
+    accuracy                         0.9136    247938
+   macro avg     0.9163    0.9066    0.9105    247938
+weighted avg     0.9144    0.9136    0.9131    247938
+
+
+FEATURE IMPORTANCE
+              feature  importance
+    min_neighbor_dist    0.182011
+     weighted_density    0.098800
+                accel    0.086825
+rank_dist_to_centroid    0.076186
+                speed    0.067054
+   mean_neighbor_dist    0.065887
+         heading_rate    0.057748
+     angular_coverage    0.038742
+  rank_dist_to_target    0.037258
+                rel_z    0.036370
+     dist_to_centroid    0.028642
+       dist_to_target    0.028364
+                rel_y    0.027040
+                   vy    0.025115
+    flight_path_angle    0.016654
+        num_neighbors    0.016608
+                   vz    0.015950
+                rel_x    0.014327
+              heading    0.012474
+                   vx    0.011975
+           num_agents    0.011031
+     obstacle_density    0.010609
+   mean_obstacle_size    0.009836
+  obstacle_clustering    0.009596
+        clutter_index    0.008530
+          n_obstacles    0.006367

@@ -1,0 +1,13 @@
+TOP-K RANKING EVALUATION\n K  graphs  mean_precision_at_k  mean_recall_at_k
+ 5    2000             0.982400          0.332124
+10    2000             0.945900          0.624653
+20    2000             0.777274          0.896754\n\nROBUSTNESS EVALUATION\n          factor  group  graphs  nodes       f1  precision   recall  critical_rate
+      Swarm size      1     667  13767 0.896739   0.930344 0.865476       0.471926
+      Swarm size      2     666  27755 0.902220   0.936242 0.870584       0.412034
+      Swarm size      3     667  42662 0.942503   0.964328 0.921643       0.412522
+Obstacle density      1     667  19502 0.931924   0.946441 0.917845       0.453133
+Obstacle density      2     666  36736 0.941530   0.962762 0.921215       0.398029
+Obstacle density      3     667  27946 0.888136   0.934260 0.846351       0.432012
+  Attrition rate      1     667  29934 0.926050   0.942341 0.910313       0.400047
+  Attrition rate      2     666  31670 0.926938   0.955887 0.899691       0.429681
+  Attrition rate      3     667  22580 0.907661   0.948805 0.869937       0.440611
